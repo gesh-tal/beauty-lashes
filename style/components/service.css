@@ -1,0 +1,109 @@
+
+.service {
+	width: 100%;
+	/*padding: 100px 40px;*/
+}
+.service_info {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/*margin: 100px 40px;*/
+}
+.service_block {
+	width: 33.33%;
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+}
+.service_head {
+	width: 100%;
+	height: 80px;
+	background-color: #453c65;
+	padding: 30px;
+	color: #fff;
+}
+.service_head h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-left: 40px;
+}
+#service1 {
+	background-image: url('../../images/8.jpg');
+}
+.service_block .title {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+.carousel_block .title {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+}
+#service2 {
+	background-image: url('../../images/14.jpg');
+	display: flex;
+	align-items: flex-end;
+}
+#service3 {
+	background-image: url('../../images/9.jpg');
+}
+.service .text {
+	margin-top: 40px;
+}
+
+.service_block .text h2 {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 30px;
+	color: darkorange;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 3px #000, 2px 2px 2px #000, 2px 2px 2px #fff;
+}
+.service_block .text p {
+	color: #fff;
+	text-shadow: 3px 2px 4px #000, 3px -1px 2px #000;
+}
+
+.title_top {
+	top: 0;
+}
+.title_bottom {
+	bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.service_block {
+		width: 100%;
+		display: flex;
+		align-items: flex-end;
+	}
+}
+
+@media (max-width: 425px) {
+	.service_block {
+		height: 250px;
+	}
+	.service_head h1 {
+		padding-left: 10px;
+	}
+}
+
+
+
+
+
+
+

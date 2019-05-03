@@ -1,0 +1,90 @@
+
+.price {
+	width: 100%;
+	background-image: url('../../images/2.png');
+	background-size: cover;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.3);
+	position: absolute;
+}
+.price .portfolio_head {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 70px;
+	text-align: left;
+}
+.price_info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+	position: relative;
+}
+.price_row {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+	/*margin: 40px auto;*/
+}
+.name {
+	width: 50%;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+.cost {
+	width: 50%;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+@media (max-width: 1100px) {
+	.price_row {
+		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.price_row {
+		width: 80%;
+	}
+	.name {
+		width: 70%;
+	}
+	.cost {
+		width: 30%;
+	}
+}
+
+@media (max-width: 425px) {
+	.price {
+		background-position: center;
+	}
+	.price_row {
+		width: 90%;
+	}
+	.price .portfolio_head {
+		padding-left: 40px;
+	}
+	.name, .cost {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.name, .cost {
+		font-size: 18px;
+	}
+}
