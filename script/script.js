@@ -27,14 +27,10 @@ $(document).ready(function(){
 		$('.nav_menu_mobile').fadeOut(1000);
 	})
 
-
-
   	$("#works").owlCarousel({
   		items: 4,
   		autoPlay: 3500,
   		pagination: false,
-  		// navigation: true,
-  		// navigationText : ["<",">"],
   	});
   	$("#technology").owlCarousel({
   		items: 4,
