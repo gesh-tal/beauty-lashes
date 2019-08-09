@@ -28,7 +28,6 @@
 	height: 100%;
 	object-fit: cover;
 }
-
 .carousel_block {
 	height: 300px;
 	position: relative;
@@ -38,7 +37,6 @@
 	height: 100%;
 	object-fit: cover;
 }
-
 
 @media (max-width: 768px) {
 	.portfolio_block {
@@ -56,9 +54,3 @@
 		padding-right: 40px;
 	}
 }
-
-
-
-
-
-
